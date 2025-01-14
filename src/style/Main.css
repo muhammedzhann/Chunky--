@@ -1,0 +1,99 @@
+/* Главный блок hero */
+.hero {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 60px;
+  scroll-behavior: smooth;
+
+  /* Фоновое изображение */
+  background-image: url('./image__home.jpg'); /* Укажите правильный путь */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  max-width: 95%; /* Минимальная высота */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Полупрозрачный слой */
+.overlay {
+  margin-top: 50px ;
+  margin-right: 50px;
+  padding: 40px;
+  border-radius: 15px;
+  color: #fff;
+  max-width: 800px;
+  width: 90%;
+}
+
+/* Заголовок */
+.card-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #FEF0D5;
+  margin-bottom: 20px;
+}
+
+/* Текст описания */
+.card-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #FEF0D5;
+  margin-bottom: 20px;
+}
+
+/* Блок рабочих часов */
+.working-hours {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #f8e1b5;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Иконка */
+.working-hours i {
+  margin-right: 10px;
+  color: #fddcae;
+  font-size: 18px;
+}
+
+/* Адаптивность */
+
+/* Для планшетов (768px и меньше) */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 36px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+
+  .overlay {
+    padding: 20px;
+  }
+}
+
+/* Для мобильных устройств (576px и меньше) */
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 28px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .working-hours {
+    font-size: 14px;
+  }
+}

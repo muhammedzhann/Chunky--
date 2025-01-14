@@ -1,0 +1,109 @@
+.business-container {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Adjusted height for balanced design */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./Busines.jpg'); /* Ensure the path is correct */
+    background-size: cover; /* Make the image cover the container */
+    background-position: center; /* Center the image within the container */
+    background-repeat: no-repeat; /* Prevent tiling */
+    scroll-behavior: smooth;
+}
+
+.business-content {
+    margin-left: 20%;
+    position: relative;
+    max-width: 800px; /* Limit the text block width */
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.business-heading {
+    font-size: 36px;
+    color: #5b4328;
+    margin-bottom: 20px;
+}
+
+.business-text {
+    font-size: 18px;
+    color: #6b4226; /* Slightly lighter brown */
+    margin-bottom: 20px;
+}
+
+.business-highlight {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8d6e47; /* Lighter brown for emphasis */
+    margin-bottom: 30px;
+}
+
+.business-button {
+    background-color: #5b4328; /* Dark brown button */
+    border: none;
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.business-button:hover {
+    background-color: #8d6e47; /* Change to lighter brown on hover */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .business-container {
+        height: auto; /* Let the height adjust based on content */
+        padding: 20px;
+    }
+
+    .business-content {
+        margin-left: 0;
+        max-width: 100%; /* Use full width for content */
+        text-align: center; /* Center-align text for smaller screens */
+        padding: 20px;
+    }
+
+    .business-heading {
+        font-size: 28px; /* Smaller font size for mobile */
+    }
+
+    .business-text {
+        font-size: 16px; /* Adjusted font size for readability */
+    }
+
+    .business-highlight {
+        font-size: 14px; /* Adjusted font size for emphasis */
+    }
+
+    .business-button {
+        width: 100%; /* Make the button full-width on mobile */
+        font-size: 14px; /* Smaller font size for mobile */
+        padding: 10px;
+    }
+}
+
+/* Media Query for Extra Small Devices (Phones) */
+@media (max-width: 480px) {
+    .business-container {
+        padding: 10px;
+    }
+
+    .business-heading {
+        font-size: 24px; /* Further reduce heading size */
+    }
+
+    .business-text {
+        font-size: 14px; /* Smaller text for better fit */
+    }
+
+    .business-button {
+        font-size: 12px; /* Smaller button font size */
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91c40bbf.css",
+    "main.js": "/static/js/main.5ede4b5a.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Busines.jpg": "/static/media/Busines.9ef6f52e01a0a8f622bc.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.91c40bbf.css.map": "/static/css/main.91c40bbf.css.map",
+    "main.5ede4b5a.js.map": "/static/js/main.5ede4b5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91c40bbf.css",
+    "static/js/main.5ede4b5a.js"
+  ]
+}

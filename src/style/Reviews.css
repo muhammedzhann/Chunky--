@@ -1,0 +1,161 @@
+.reviews-container {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px 20px;
+  animation: fadeIn 1s ease-in-out; /* Добавлена анимация появления */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reviews-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5b4228; /* Dark brown color */
+  margin-bottom: 10px;
+  animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.reviews-description {
+  font-size: 16px;
+  color: #6b4226; /* Medium brown color */
+  margin-bottom: 30px;
+  animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.reviews-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрирование слайдера */
+  gap: 20px;
+}
+
+.slider-button {
+  background-color: #f8d5a3; /* Цвет фона кнопки */
+  border: none;
+  color: #6b4226; /* Цвет текста */
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px 20px; /* Увеличен размер кнопки */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s ease-in-out; /* Добавлены плавные переходы */
+}
+
+.slider-button:hover {
+  background-color: #e5b07e; /* Легкий оттенок при наведении */
+  transform: scale(1.2); /* Увеличение кнопки при наведении */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Усиленная тень */
+}
+
+.reviews-cards {
+  display: flex;
+  gap: 20px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.review-card {
+  flex: 0 0 calc(33.333% - 20px); /* Allow 3 cards per row */
+  background: #FDF0D4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid #f8d5a3; /* Light border for visual appeal */
+  display: flex;
+  flex-direction: column; /* Ensures content stacks vertically */
+  justify-content: space-between; /* Space between stars and text */
+  min-height: 200px; /* Ensure all cards have equal height */
+  transition: transform 0.3s, box-shadow 0.3s; /* Плавный эффект */
+}
+
+.review-card:hover {
+  transform: translateY(-10px); /* Поднятие карточки при наведении */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Усиленная тень */
+}
+
+.review-stars {
+  font-size: 20px;
+  color: #f4c542; /* Yellow stars */
+  margin-bottom: 10px;
+  animation: zoomIn 0.8s ease-in-out;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.review-text {
+  font-size: 16px;
+  color: #5b4228; /* Dark brown for text */
+  line-height: 1.5;
+  flex-grow: 1; /* Allow text to expand while keeping cards equal */
+  animation: fadeIn 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .reviews-cards {
+    flex-direction: column;
+  }
+
+  .review-card {
+    flex: 1 1 100%;
+    max-width: 100%; /* Make cards full-width on mobile */
+  }
+
+  .reviews-slider {
+    flex-direction: column; /* Переводим слайдер в колонку на мобильных */
+    gap: 10px; /* Уменьшаем промежуток между кнопками */
+  }
+
+  .slider-button {
+    padding: 10px 15px; /* Немного уменьшаем размер кнопки на мобильных */
+  }
+}

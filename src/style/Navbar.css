@@ -1,0 +1,187 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #fff8ec;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    scroll-behavior: smooth;
+}
+
+/* Логотип */
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c4033;
+    text-decoration: none;
+}
+
+/* Навигационные ссылки */
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-item {
+    font-size: 16px;
+    color: #5c4033;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #fae6c8;
+    color: #5c4033;
+    text-decoration: none;
+}
+
+/* Кнопки справа */
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 100%;
+    border: none;
+    text-decoration: none;
+    color: #5c4033;
+    background-color: #fddcae;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #fae6c8;
+    color: #5c4033;
+}
+
+.cart-button i,
+.profile-button i {
+    font-size: 18px;
+}
+
+/* Для адаптивного дизайна */
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none; /* Можно добавить выпадающее меню */
+    }
+
+    .navbar-buttons {
+        gap: 5px;
+    }
+}
+/* Navbar */
+.navbar {
+    background-color: #f8f2e9; /* Match site background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+  }
+  
+  .navbar-center {
+    text-align: center;
+  }
+  
+  /* Logo */
+  .navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d4a373;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-brand:hover {
+    color: #b2875e;
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links .nav-item {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4f4b4f;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links .nav-item:hover {
+    color: #d4a373;
+  }
+  
+  /* Navbar Buttons */
+  .navbar-buttons .btn {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d4a373;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-buttons .btn:hover {
+    background-color: #b2875e;
+  }
+  
+  .navbar-buttons .btn i {
+    margin-right: 5px;
+  }
+  
+  /* Center alignment for buttons */
+  .navbar-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navbar-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  .profile-icon {
+    margin-right: 5px;
+    font-size: 1.2rem; /* Размер иконки */
+    vertical-align: middle; /* Выравнивание с текстом */
+}
+.navbar-user {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-user:hover {
+    color: #007bff;
+    text-decoration: none;
+}
