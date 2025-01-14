@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Chunky--/static/css/main.c70428fa.css",
+    "main.js": "/Chunky--/static/js/main.a69210ac.js",
+    "static/media/image__home.jpg": "/Chunky--/static/media/image__home.7808ebd15b4cde9d2fd6.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Chunky--/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Busines.jpg": "/Chunky--/static/media/Busines.9ef6f52e01a0a8f622bc.jpg",
+    "static/media/fontawesome-webfont.eot": "/Chunky--/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Chunky--/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Chunky--/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Chunky--/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/Chunky--/index.html",
+    "main.c70428fa.css.map": "/Chunky--/static/css/main.c70428fa.css.map",
+    "main.a69210ac.js.map": "/Chunky--/static/js/main.a69210ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c70428fa.css",
+    "static/js/main.a69210ac.js"
+  ]
+}
